@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class StudentAgeEligibilityService {
 
     boolean isAgeValid(int age){
-        return age>=18;
+        return age>=16;
     }
 }
