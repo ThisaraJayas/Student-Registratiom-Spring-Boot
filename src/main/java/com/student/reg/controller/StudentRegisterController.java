@@ -12,7 +12,7 @@ public class StudentRegisterController {
     @Autowired
     private StudentRegistrationService rs;
 
-@PostMapping("/Student-Register")
+@PostMapping("/students")
     public void Register(){
         Student s1 = new Student();
         s1.setId("s10");
